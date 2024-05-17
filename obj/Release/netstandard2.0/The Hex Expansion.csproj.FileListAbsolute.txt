@@ -1,0 +1,17 @@
+C:\Users\Thinc\source\repos\The_Hex_Expansion_Part_3\bin\Release\netstandard2.0\TheHexExpansion.deps.json
+C:\Users\Thinc\source\repos\The_Hex_Expansion_Part_3\bin\Release\netstandard2.0\TheHexExpansion.dll
+C:\Users\Thinc\source\repos\The_Hex_Expansion_Part_3\bin\Release\netstandard2.0\TheHexExpansion.pdb
+C:\Users\Thinc\source\repos\The_Hex_Expansion_Part_3\bin\Release\netstandard2.0\Infiniscryption.Achievements.dll
+C:\Users\Thinc\source\repos\The_Hex_Expansion_Part_3\bin\Release\netstandard2.0\Infiniscryption.PackManager.dll
+C:\Users\Thinc\source\repos\The_Hex_Expansion_Part_3\bin\Release\netstandard2.0\InscryptionAPI.dll
+C:\Users\Thinc\source\repos\The_Hex_Expansion_Part_3\bin\Release\netstandard2.0\InscryptionCommunityPatch.dll
+C:\Users\Thinc\source\repos\The_Hex_Expansion_Part_3\bin\Release\netstandard2.0\NevernamedsSigils.dll
+C:\Users\Thinc\source\repos\The_Hex_Expansion_Part_3\obj\Release\netstandard2.0\The Hex Expansion.csproj.AssemblyReference.cache
+C:\Users\Thinc\source\repos\The_Hex_Expansion_Part_3\obj\Release\netstandard2.0\PluginInfo.cs
+C:\Users\Thinc\source\repos\The_Hex_Expansion_Part_3\obj\Release\netstandard2.0\The Hex Expansion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Thinc\source\repos\The_Hex_Expansion_Part_3\obj\Release\netstandard2.0\The Hex Expansion.AssemblyInfoInputs.cache
+C:\Users\Thinc\source\repos\The_Hex_Expansion_Part_3\obj\Release\netstandard2.0\The Hex Expansion.AssemblyInfo.cs
+C:\Users\Thinc\source\repos\The_Hex_Expansion_Part_3\obj\Release\netstandard2.0\The Hex Expansion.csproj.CoreCompileInputs.cache
+C:\Users\Thinc\source\repos\The_Hex_Expansion_Part_3\obj\Release\netstandard2.0\The Hex .1D6AA32B.Up2Date
+C:\Users\Thinc\source\repos\The_Hex_Expansion_Part_3\obj\Release\netstandard2.0\TheHexExpansion.dll
+C:\Users\Thinc\source\repos\The_Hex_Expansion_Part_3\obj\Release\netstandard2.0\TheHexExpansion.pdb
