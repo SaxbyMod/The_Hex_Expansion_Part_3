@@ -39,9 +39,24 @@ namespace The_Hex_Expansion
             CardManager.Add(TheHexExpansion.PluginPrefix, Groonda);
             CardCount++;
             // Catarina
-            CardInfo Catarina = CardManager.New(modPrefix: TheHexExpansion.PluginPrefix, "Catarina_", "Catarina", 2, 2, description: "A wild groonda appears, jump on it to get rid of it! But be careful, these critters can move.");
-            Catarina.SetCost(bloodCost: 2).AddAbilities(GetAbility("nevernamed.inscryption.sigils", "Downdraft"), Ability.Flying).AddAppearances(TheHexExpansion.TheHexCardbackAppearence).SetPortrait("Catarina.png").SetEmissivePortrait("Catarina_e.png").AddTribes(TheHexExpansion.SuperWeaselKid, TheHexExpansion.TheWalk).AddMetaCategories(CardMetaCategory.TraderOffer, CardMetaCategory.ChoiceNode);
+            CardInfo Catarina = CardManager.New(modPrefix: TheHexExpansion.PluginPrefix, "Catarina_", "Catarina", 2, 2, description: "Bring me 50, and to you a secret I will reveal.");
+            Catarina.SetCost(bloodCost: 2).AddAbilities(GetAbility("nevernamed.inscryption.sigils", "Downdraft"), Ability.Flying).AddAppearances(TheHexExpansion.TheHexCardbackAppearence).SetPortrait("Catarina.png").SetEmissivePortrait("Catarina_e.png").AddTribes(TheHexExpansion.SuperWeaselKid, TheHexExpansion.TheWalk).AddMetaCategories(CardMetaCategory.TraderOffer, CardMetaCategory.ChoiceNode).SetDefaultEvolutionName("This game was built on the ashes of another.");
             CardManager.Add(TheHexExpansion.PluginPrefix, Catarina);
+            CardCount++;
+            // Cloud
+            CardInfo Cloud = CardManager.New(modPrefix: TheHexExpansion.PluginPrefix, "Cloud_", "Cloud", 1, 2, description: "A giggling cloud I don't know why it's around, maybe it can be used as a stepping stone?");
+            Cloud.SetCost(bloodCost: 0).AddAbilities(GetAbility("nevernamed.inscryption.sigils", "Obedient"), Ability.Flying).AddAppearances(TheHexExpansion.TheHexCardbackAppearence).SetPortrait("Cloud.png").SetEmissivePortrait("Cloud_e.png").AddTribes(TheHexExpansion.SuperWeaselKid).AddMetaCategories(CardMetaCategory.TraderOffer, CardMetaCategory.ChoiceNode);
+            CardManager.Add(TheHexExpansion.PluginPrefix, Cloud);
+            CardCount++;
+            // Death
+            CardInfo Death = CardManager.New(modPrefix: TheHexExpansion.PluginPrefix, "Death_", "Death", 1, 3, description: "Be careful, one wrong move and it will obliterate everything.");
+            Death.SetCost(bloodCost: 1).AddAbilities(GetAbility("nevernamed.inscryption.sigils", "Annihilation"), GetAbility("creator.TooManySigils", "Rotting"), GetAbility("nevernamed.inscryption.sigils", "Vampiric"), Ability.GainAttackOnKill).AddAppearances(TheHexExpansion.TheHexCardbackAppearence).SetPortrait("Death.png").SetEmissivePortrait("Death_e.png").AddTribes(TheHexExpansion.SuperWeaselKid).AddMetaCategories(CardMetaCategory.Rare);
+            CardManager.Add(TheHexExpansion.PluginPrefix, Death);
+            CardCount++;
+            // Hill
+            CardInfo Hill = CardManager.New(modPrefix: TheHexExpansion.PluginPrefix, "Hill_", "Hill", 0, 5, description: "A hill cursed to bleed for eternity, due to the purcha- No, due to Lou Natas.");
+            Hill.SetCost(bloodCost: 2).AddAbilities(GetAbility("nevernamed.inscryption.sigils", "Twin Bond"), GetAbility("nevernamed.inscryption.sigils", "Tempting Target")).AddAppearances(TheHexExpansion.TheHexCardbackAppearence).SetPortrait("Hill.png").SetEmissivePortrait("Hill_e.png").AddTribes(TheHexExpansion.SuperWeaselKid).AddMetaCategories(CardMetaCategory.TraderOffer, CardMetaCategory.ChoiceNode);
+            CardManager.Add(TheHexExpansion.PluginPrefix, Hill);
             CardCount++;
 
             return CardCount.ToString();

@@ -15,3 +15,4 @@ C:\Users\Thinc\source\repos\The_Hex_Expansion_Part_3\obj\Release\netstandard2.0\
 C:\Users\Thinc\source\repos\The_Hex_Expansion_Part_3\obj\Release\netstandard2.0\The Hex .1D6AA32B.Up2Date
 C:\Users\Thinc\source\repos\The_Hex_Expansion_Part_3\obj\Release\netstandard2.0\TheHexExpansion.dll
 C:\Users\Thinc\source\repos\The_Hex_Expansion_Part_3\obj\Release\netstandard2.0\TheHexExpansion.pdb
+C:\Users\Thinc\source\repos\The_Hex_Expansion_Part_3\obj\Release\netstandard2.0\The Hex Expansion.sourcelink.json

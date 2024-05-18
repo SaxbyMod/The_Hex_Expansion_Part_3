@@ -7,6 +7,7 @@ using InscryptionAPI.Card;
 using InscryptionAPI.Helpers;
 using NevernamedsSigils;
 using Pixelplacement;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -77,7 +78,6 @@ namespace The_Hex_Expansion
 
             int cardCount = int.Parse(cardCountString);
             Logger.LogInfo("Card count: " + cardCount);
-
         }
 
 
