@@ -13,11 +13,12 @@ namespace The_Hex_Expansion
         }
         public static string Awake(int CardCount = 0)
         {
-            // EightFuckingBears
+            /* EightFuckingBears
             CardInfo EightFuckingBears = CardManager.New(modPrefix: TheHexExpansion.PluginPrefix, "Eight_Bears", "8 fucking bears!", 32, 48, description: "Kill this abomination, please.");
             EightFuckingBears.SetCost(bloodCost: 0).AddAbilities().AddSpecialAbilities().AddAppearances(TheHexExpansion.TheHexCardbackAppearence).SetPortrait("eightfuckingbears.png").SetEmissivePortrait("eightfuckingbears_emissive.png").AddTribes(TheHexExpansion.SuperWeaselKid);
             CardManager.Add(TheHexExpansion.PluginPrefix, EightFuckingBears);
             CardCount++;
+            */
             // SuperWeaselKid
             CardInfo SuperWeaselKid = CardManager.New(modPrefix: TheHexExpansion.PluginPrefix, "Super_Weasel_Kid", "Super Weasel Kid", 2, 3, description: "Here you can Run, Jump, and maybe even soar amoung the clouds.");
             SuperWeaselKid.SetCost(bloodCost: 2).AddAbilities(GetAbility("nevernamed.inscryption.sigils", "Flighty")).AddAppearances(TheHexExpansion.TheHexCardbackAppearence).SetPortrait("Super_Weasel_Kid.png").SetEmissivePortrait("Super_Weasel_Kid_e.png").AddTribes(TheHexExpansion.SuperWeaselKid, TheHexExpansion.ViciousGalaxy).AddMetaCategories(CardMetaCategory.TraderOffer, CardMetaCategory.ChoiceNode);

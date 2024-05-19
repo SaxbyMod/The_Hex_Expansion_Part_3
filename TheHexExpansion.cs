@@ -1,6 +1,7 @@
 using BepInEx;
 using BepInEx.Bootstrap;
 using DiskCardGame;
+using EasyFeedback.APIs;
 using HarmonyLib;
 using Infiniscryption.PackManagement;
 using InscryptionAPI.Card;
@@ -65,12 +66,13 @@ namespace The_Hex_Expansion
             {
                 if (Chainloader.PluginInfos.ContainsKey("zorro.inscryption.infiniscryption.packmanager"))
                 {
-                    PackInfo TheHexPack = PackManager.GetPackInfo(PluginPrefix);
+                    PackInfo TheHexPack = PackManager.GetPackInfo<PackInfo>(PluginPrefix);
                     TheHexPack.Title = "The Hexagon Pack";
                     TheHexPack.SetTexture(TextureHelper.GetImageAsTexture("The_Hex_Packicon_Part_Three.png"));
                     TheHexPack.Description = "THE ALMIGHTY HEXAGON SHALL RAIN DOWN UPON US ALL!!!!";
                     TheHexPack.ValidFor.Add(PackInfo.PackMetacategory.LeshyPack);
                     TheHexPack.ValidFor.Add(PackInfo.PackMetacategory.P03Pack);
+                    
                 }
             }
 
