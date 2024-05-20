@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Thinc\\source\\repos\\The_Hex_Expansion_Part_3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F312A419-1C1C-4F75-A55A-176D229C5146}|The Hex Expansion.csproj|c:\\users\\thinc\\source\\repos\\the_hex_expansion_part_3\\thehexexpansion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F312A419-1C1C-4F75-A55A-176D229C5146}|The Hex Expansion.csproj|solutionrelative:thehexexpansion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F312A419-1C1C-4F75-A55A-176D229C5146}|The Hex Expansion.csproj|c:\\users\\thinc\\source\\repos\\the_hex_expansion_part_3\\cardsregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F312A419-1C1C-4F75-A55A-176D229C5146}|The Hex Expansion.csproj|solutionrelative:cardsregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F312A419-1C1C-4F75-A55A-176D229C5146}|The Hex Expansion.csproj|c:\\users\\thinc\\source\\repos\\the_hex_expansion_part_3\\thehexexpansion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F312A419-1C1C-4F75-A55A-176D229C5146}|The Hex Expansion.csproj|solutionrelative:thehexexpansion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,29 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CardsRegistration.cs",
               "DocumentMoniker": "C:\\Users\\Thinc\\source\\repos\\The_Hex_Expansion_Part_3\\CardsRegistration.cs",
               "RelativeDocumentMoniker": "CardsRegistration.cs",
               "ToolTip": "C:\\Users\\Thinc\\source\\repos\\The_Hex_Expansion_Part_3\\CardsRegistration.cs",
               "RelativeToolTip": "CardsRegistration.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAAOAAAA",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAkwHYAAABnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-08T20:20:40.513Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TheHexExpansion.cs",
               "DocumentMoniker": "C:\\Users\\Thinc\\source\\repos\\The_Hex_Expansion_Part_3\\TheHexExpansion.cs",
               "RelativeDocumentMoniker": "TheHexExpansion.cs",
               "ToolTip": "C:\\Users\\Thinc\\source\\repos\\The_Hex_Expansion_Part_3\\TheHexExpansion.cs",
               "RelativeToolTip": "TheHexExpansion.cs",
-              "ViewState": "AQIAAB8AAAAAAAAAAAAAAEsAAAARAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAAGgAAADEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T20:21:43.169Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T20:21:43.169Z"
             }
           ]
         }
