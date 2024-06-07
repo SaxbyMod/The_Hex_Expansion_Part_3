@@ -124,7 +124,35 @@ namespace The_Hex_Expansion
             Irving.SetCost(bloodCost: 2).AddAbilities(GetAbility("nevernamed.inscryption.sigils", "Bully"), GetAbility("nevernamed.inscryption.sigils", "Bloodrunner"), GetAbility("nevernamed.inscryption.sigils", "Trophy Hunter")).AddAppearances(TheHexExpansion.TheHexCardbackAppearence).SetPortrait("Irving.png").SetEmissivePortrait("Irving_e.png").AddTribes(TheHexExpansion.CombatArenaX).AddMetaCategories(CardMetaCategory.Rare);
             CardManager.Add(TheHexExpansion.PluginPrefix, Irving);
             CardCount++;
-
+            // Sado Phase 1
+            CardInfo Sado_Dummy = CardManager.New(modPrefix: TheHexExpansion.PluginPrefix, "Sado_Dummy", "Sado", 0, 2, description: "A glitch in the system, tough to get rid of...");
+            Sado_Dummy.SetCost(bloodCost: 3).AddAbilities(Ability.IceCube).AddAppearances(TheHexExpansion.TheHexCardbackAppearence).SetPortrait("Sado_Dummy.png").SetEmissivePortrait("Sado_Dummy_e.png").AddTribes(TheHexExpansion.CombatArenaX, TheHexExpansion.ViciousGalaxy, TheHexExpansion.TheWalk, TheHexExpansion.WasteWorld).AddMetaCategories(CardMetaCategory.Rare).SetIceCube($"{TheHexExpansion.PluginPrefix}_Sado_Dummy_II");
+            CardManager.Add(TheHexExpansion.PluginPrefix, Sado_Dummy);
+            CardCount++;
+            // Sado Phase 2
+            CardInfo Sado_Dummy_II = CardManager.New(modPrefix: TheHexExpansion.PluginPrefix, "Sado_Dummy_II", "Dummy", 0, 4, description: "A glitchy dummy for you to practice with.");
+            Sado_Dummy_II.SetCost(bloodCost: 3).AddAbilities(Ability.IceCube, GetAbility("creator.TooManySigils", "One Fourth Chance Instakill")).AddAppearances(TheHexExpansion.TheHexCardbackAppearence).SetPortrait("Sado_Dummy_II.png").SetEmissivePortrait("Sado_Dummy_II_e.png").AddTribes(TheHexExpansion.CombatArenaX).SetIceCube($"{TheHexExpansion.PluginPrefix}_Sado_Hat");
+            CardManager.Add(TheHexExpansion.PluginPrefix, Sado_Dummy_II);
+            CardCount++;
+            // Sado Phase 3
+            CardInfo Sado_Hat = CardManager.New(modPrefix: TheHexExpansion.PluginPrefix, "Sado_Hat", "Hat", 1, 3, description: "A trio of hats for memory practice and stabbing!");
+            Sado_Hat.SetCost(bloodCost: 3).AddAbilities(Ability.IceCube, Ability.Sharp, Ability.CreateDams).AddAppearances(TheHexExpansion.TheHexCardbackAppearence).SetPortrait("Sado_Hat.png").SetEmissivePortrait("Sado_Hat_e.png").AddTribes(TheHexExpansion.CombatArenaX).SetIceCube($"{TheHexExpansion.PluginPrefix}_Sado_Hands").SetExtendedProperty("CustomDamDefinition", $"{TheHexExpansion.PluginPrefix}_Sado_Spike_Hat");
+            CardManager.Add(TheHexExpansion.PluginPrefix, Sado_Hat);
+            CardCount++;
+            CardInfo Sado_Spike_Hat = CardManager.New(modPrefix: TheHexExpansion.PluginPrefix, "Sado_Spike_Hat", "Spike Hat", 1, 2, description: "A hat meant to sabotoge the opponent by stabbing it deeply.");
+            Sado_Spike_Hat.SetCost(bloodCost: 3).AddAbilities(GetAbility("nevernamed.inscryption.sigils", "Sharper Quills")).AddAppearances(TheHexExpansion.TheHexCardbackAppearence).SetPortrait("Sado_Spike_Hat.png").SetEmissivePortrait("Sado_Spike_Hat_e.png").AddTribes(TheHexExpansion.CombatArenaX);
+            CardManager.Add(TheHexExpansion.PluginPrefix, Sado_Spike_Hat);
+            CardCount++;
+            // Sado Phase 4
+            CardInfo Sado_Hands = CardManager.New(modPrefix: TheHexExpansion.PluginPrefix, "Sado_Hands", "Hands", 1, 3, description: "A massive pair of glitched hands, controlled by a puppeteer with the goal of destroying the opponent.");
+            Sado_Hands.SetCost(bloodCost: 3).AddAbilities(Ability.DoubleStrike, Ability.IceCube).AddAppearances(TheHexExpansion.TheHexCardbackAppearence).SetPortrait("Sado_Hands.png").SetEmissivePortrait("Sado_Hands_e.png").AddTribes(TheHexExpansion.CombatArenaX).SetIceCube($"{TheHexExpansion.PluginPrefix}_Sado");
+            CardManager.Add(TheHexExpansion.PluginPrefix, Sado_Hands);
+            CardCount++;
+            // Sado Phase 5
+            CardInfo Sado = CardManager.New(modPrefix: TheHexExpansion.PluginPrefix, "Sado", "Sado", 1, 3, description: "A still glitchy mess, just now has less power than before, due to their waves of attacks.");
+            Sado.SetCost(bloodCost: 3).AddAbilities(Ability.Sharp, Ability.Deathtouch, GetAbility("nevernamed.inscryption.sigils", "Caustic")).AddAppearances(TheHexExpansion.TheHexCardbackAppearence).SetPortrait("Sado.png").SetEmissivePortrait("Sado_e.png").AddTribes(TheHexExpansion.CombatArenaX).SetIceCube($"{TheHexExpansion.PluginPrefix}_Sado");
+            CardManager.Add(TheHexExpansion.PluginPrefix, Sado);
+            CardCount++;
             return CardCount.ToString();
         }
     }

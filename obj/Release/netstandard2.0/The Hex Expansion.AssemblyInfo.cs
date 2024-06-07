@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Thwe e Hex Expansion Part 3")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15f682130593d3d127f0d64097be60a949075cfb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b30ade1dc9b955c537913a31c5cfa47726e6a1d5")]
 [assembly: System.Reflection.AssemblyProductAttribute("TheHexExpansion")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TheHexExpansion")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
