@@ -7,7 +7,7 @@
   "targets": {
     ".NETStandard,Version=v2.0": {},
     ".NETStandard,Version=v2.0/": {
-      "TheHexExpansion/1.0.0": {
+      "TheHexExpansion/1.1.0": {
         "dependencies": {
           "BepInEx-MonoMod_Loader_Inscryption": "1.0.0",
           "BepInEx.Analyzers": "1.0.8",
@@ -471,7 +471,7 @@
     }
   },
   "libraries": {
-    "TheHexExpansion/1.0.0": {
+    "TheHexExpansion/1.1.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

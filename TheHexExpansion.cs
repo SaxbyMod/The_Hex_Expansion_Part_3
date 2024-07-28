@@ -16,6 +16,7 @@ namespace The_Hex_Expansion
 {
     [BepInPlugin(PluginGuid, PluginName, PluginVersion)]
     [BepInDependency("cyantist.inscryption.api", BepInDependency.DependencyFlags.HardDependency)]
+    [BepInDependency("zorro.inscryption.infiniscryption.packmanager", BepInDependency.DependencyFlags.SoftDependency)]
 
     public class TheHexExpansion : BaseUnityPlugin
     {
@@ -27,7 +28,7 @@ namespace The_Hex_Expansion
         // These are variables that exist everywhere in the entire class.
         public const string PluginGuid = "creator.TheHexExpansionPart3";
         public const string PluginName = "The Hex Expansion Part 3";
-        public const string PluginVersion = "1.0.0";
+        public const string PluginVersion = "1.1.0";
         public const string PluginPrefix = "THE_ALMIGHTY_HEXAGON";
         public int TribeCount = 0;
 
@@ -62,27 +63,24 @@ namespace The_Hex_Expansion
 
             // The_Hex_Packicon_Part_Three.png
 
-            static void THEHEXPACKPARTTHREE()
-            {
-                if (Chainloader.PluginInfos.ContainsKey("zorro.inscryption.infiniscryption.packmanager"))
-                {
-                    PackInfo TheHexPack = PackManager.GetPackInfo<PackInfo>(PluginPrefix);
-                    TheHexPack.Title = "The Hexagon Pack";
-                    TheHexPack.SetTexture(TextureHelper.GetImageAsTexture("The_Hex_Packicon_Part_Three.png"));
-                    TheHexPack.Description = "THE ALMIGHTY HEXAGON SHALL RAIN DOWN UPON US ALL!!!!";
-                    TheHexPack.ValidFor.Add(PackInfo.PackMetacategory.LeshyPack);
-                    TheHexPack.ValidFor.Add(PackInfo.PackMetacategory.P03Pack);
-                    
-                }
-            }
-
             string cardCountString = CardsRegistration.Awake();
-
             int cardCount = int.Parse(cardCountString);
             Logger.LogInfo("Card count: " + cardCount);
+
         }
 
-
+        public static void THEHEXPACKPARTTHREE()
+        {
+            if (Chainloader.PluginInfos.ContainsKey("zorro.inscryption.infiniscryption.packmanager"))
+            {
+                PackInfo TheHexPack = PackManager.GetPackInfo(TheHexExpansion.PluginPrefix);
+                TheHexPack.Title = "The Hexagon";
+                TheHexPack.SetTexture(TextureHelper.GetImageAsTexture("The_Hex_Packicon_Part_Three.png"));
+                TheHexPack.Description = "THE ALMIGHTY HEXAGON SHALL RAIN DOWN UPON US ALL!!!!";
+                TheHexPack.ValidFor.Add(PackInfo.PackMetacategory.LeshyPack);
+                TheHexPack.ValidFor.Add(PackInfo.PackMetacategory.P03Pack);
+            }
+        }
 
         public class TheHexCardback : CardAppearanceBehaviour
         {

@@ -46,7 +46,7 @@ namespace The_Hex_Expansion
             CardCount++;
             // Cloud
             CardInfo Cloud = CardManager.New(modPrefix: TheHexExpansion.PluginPrefix, "Cloud_", "Cloud", 1, 2, description: "A giggling cloud I don't know why it's around, maybe it can be used as a stepping stone?");
-            Cloud.SetCost(bloodCost: 0).AddAbilities(GetAbility("nevernamed.inscryption.sigils", "Obedient"), Ability.Flying).AddAppearances(TheHexExpansion.TheHexCardbackAppearence).SetPortrait("Cloud.png").SetEmissivePortrait("Cloud_e.png").AddTribes(TheHexExpansion.SuperWeaselKid).AddMetaCategories(CardMetaCategory.TraderOffer, CardMetaCategory.ChoiceNode);
+            Cloud.SetCost(energyCost: 3).AddAbilities(GetAbility("nevernamed.inscryption.sigils", "Obedient"), Ability.Flying).AddAppearances(TheHexExpansion.TheHexCardbackAppearence).SetPortrait("Cloud.png").SetEmissivePortrait("Cloud_e.png").AddTribes(TheHexExpansion.SuperWeaselKid).AddMetaCategories(CardMetaCategory.TraderOffer, CardMetaCategory.ChoiceNode);
             CardManager.Add(TheHexExpansion.PluginPrefix, Cloud);
             CardCount++;
             // Death
@@ -152,6 +152,11 @@ namespace The_Hex_Expansion
             CardInfo Sado = CardManager.New(modPrefix: TheHexExpansion.PluginPrefix, "Sado", "Sado", 1, 3, description: "A still glitchy mess, just now has less power than before, due to their waves of attacks.");
             Sado.SetCost(bloodCost: 3).AddAbilities(Ability.Sharp, Ability.Deathtouch, GetAbility("nevernamed.inscryption.sigils", "Caustic")).AddAppearances(TheHexExpansion.TheHexCardbackAppearence).SetPortrait("Sado.png").SetEmissivePortrait("Sado_e.png").AddTribes(TheHexExpansion.CombatArenaX).SetIceCube($"{TheHexExpansion.PluginPrefix}_Sado");
             CardManager.Add(TheHexExpansion.PluginPrefix, Sado);
+            CardCount++;
+            // Training Dummy
+            CardInfo Training_Dummy = CardManager.New(modPrefix: TheHexExpansion.PluginPrefix, "Training_Dummy", "Training Dummy", 0, 3, description: "A Regular dummy use it to train up your skills!");
+            Training_Dummy.SetCost(bloodCost: 2).AddAbilities(GetAbility("creator.TooManySigils", "One Fourth Chance Instakill")).AddAppearances(TheHexExpansion.TheHexCardbackAppearence).SetPortrait("Sado_Dummy_II.png").SetEmissivePortrait("Sado_Dummy_II_e.png").AddTribes(TheHexExpansion.CombatArenaX).AddMetaCategories(CardMetaCategory.ChoiceNode, CardMetaCategory.TraderOffer);
+            CardManager.Add(TheHexExpansion.PluginPrefix, Training_Dummy);
             CardCount++;
             return CardCount.ToString();
         }
