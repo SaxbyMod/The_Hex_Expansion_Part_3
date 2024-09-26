@@ -1,88 +1,100 @@
-# General Info:
+# The Hex Expansion Part III
 
-This mod adds 5 pelts
+## Includes:
 
-Reccomended to be played with mods that do things with the Base game Tribes
+### 7 Tribes;
 
-# Added Pelts:
+#### 7 New Tribes:
+|GUID|Name|Cards|
+|:-:|:-|:-|
+|creator.TheHexExpansionPart3|CombatArenaX|15|
+|creator.TheHexExpansionPart3|RootbeerTender|0|
+|creator.TheHexExpansionPart3|SecretsOfLegendaria|1|
+|creator.TheHexExpansionPart3|SuperWeaselKid|8|
+|creator.TheHexExpansionPart3|TheWalk|3|
+|creator.TheHexExpansionPart3|ViciousGalaxy|2|
+|creator.TheHexExpansionPart3|WasteWorld|1|
 
-|GUID|Name|Base Cost|Extra Sigils|Available At Trader|Cards To Choose|
-|:-:|:-|:-|:-|:-|:-|
-|creator.TribalPelts|Coyote Pelt|5|0|True|8|
-|creator.TribalPelts|Crocodile Hide|5|0|True|8|
-|creator.TribalPelts|Deer Pelt|5|0|True|8|
-|creator.TribalPelts|Moth Molt|5|0|True|8|
-|creator.TribalPelts|Raven Epidermis|5|0|True|8|
+### 8 Cards;
 
-Card forms:
+#### 17 New Common Cards:
+|GUID|Mod Prefix|Name|Power|Health|Cost|Sigils|Frozen Away|Traits|Tribes|Meta Categories|
+|:-:|:-|:-|:-|:-|:-|:-|:-|:-|:-|:-|
+|creator.TheHexExpansionPart3|THE_ALMIGHTY_HEXAGON|Alley Gator|2|2| <img align="center" src="https://i.imgur.com/62GUUAC.png">|Ravenous|||CombatArenaX|Choice, Trader|
+|creator.TheHexExpansionPart3|THE_ALMIGHTY_HEXAGON|Astrid|1|2| <img align="center" src="https://i.imgur.com/62GUUAC.png">|Preemptive Strike, Swooping Strike|||CombatArenaX|Choice, Trader|
+|creator.TheHexExpansionPart3|THE_ALMIGHTY_HEXAGON|Bhakto|1|2| <img align="center" src="https://i.imgur.com/62GUUAC.png">|Double Tap, Sniper|||CombatArenaX|Trader, Choice|
+|creator.TheHexExpansionPart3|THE_ALMIGHTY_HEXAGON|Bryce|1|2| <img align="center" src="https://i.imgur.com/62GUUAC.png">|Bandage Weaver, Chaos Strike|||CombatArenaX|Trader, Choice|
+|creator.TheHexExpansionPart3|THE_ALMIGHTY_HEXAGON|Catarina|2|2| <img align="center" src="https://i.imgur.com/62GUUAC.png">|Downdraft, Airborne|||SuperWeaselKid, TheWalk|Trader, Choice|
+|creator.TheHexExpansionPart3|THE_ALMIGHTY_HEXAGON|Cloud|1|2| <img align="center" src="https://i.imgur.com/9tZzgbv.png">|Obedient, Airborne|||SuperWeaselKid|Trader, Choice|
+|creator.TheHexExpansionPart3|THE_ALMIGHTY_HEXAGON|Flinton|1|2| <img align="center" src="https://i.imgur.com/H6vESv7.png">|Wavering Strike, Touch of Death|||CombatArenaX|Choice, Trader|
+|creator.TheHexExpansionPart3|THE_ALMIGHTY_HEXAGON|Granny|0|3| <img align="center" src="https://i.imgur.com/H6vESv7.png">|Medicinal, Bandage Weaver|||CombatArenaX|Choice, Trader|
+|creator.TheHexExpansionPart3|THE_ALMIGHTY_HEXAGON|Groonda|1|3| <img align="center" src="https://i.imgur.com/H6vESv7.png">|Sprinter, Sharp Quills||KillsSurvivors|SuperWeaselKid|Trader, Choice|
+|creator.TheHexExpansionPart3|THE_ALMIGHTY_HEXAGON|Hill|0|5| <img align="center" src="https://i.imgur.com/62GUUAC.png">|Twin Bond, Tempting Target|||SuperWeaselKid|Trader, Choice|
+|creator.TheHexExpansionPart3|THE_ALMIGHTY_HEXAGON|Magnus|3|1| <img align="center" src="https://i.imgur.com/62GUUAC.png">|Bully|||CombatArenaX|Choice, Trader|
+|creator.TheHexExpansionPart3|THE_ALMIGHTY_HEXAGON|Maniacus|3|2| <img align="center" src="https://i.imgur.com/62GUUAC.png">|Wavering Strike|||CombatArenaX|Choice, Trader|
+|creator.TheHexExpansionPart3|THE_ALMIGHTY_HEXAGON|Mr. Shrewd|2|2| <img align="center" src="https://i.imgur.com/H6vESv7.png">|Burrower, Doomed|||SuperWeaselKid, TheWalk|Trader, Choice|
+|creator.TheHexExpansionPart3|THE_ALMIGHTY_HEXAGON|Mr. Squarrel|1|4| <img align="center" src="https://i.imgur.com/62GUUAC.png">|Tempting Target|||SuperWeaselKid, SecretsOfLegendaria|Trader, Choice|
+|creator.TheHexExpansionPart3|THE_ALMIGHTY_HEXAGON|Steamboat Willy|2|2| <img align="center" src="https://i.imgur.com/mBwmFpx.png">|Trampler, Mauler, Armored|||CombatArenaX|Choice, Trader|
+|creator.TheHexExpansionPart3|THE_ALMIGHTY_HEXAGON|Super Weasel Kid|2|3| <img align="center" src="https://i.imgur.com/62GUUAC.png">|Flighty|||SuperWeaselKid, ViciousGalaxy|Trader, Choice|
+|creator.TheHexExpansionPart3|THE_ALMIGHTY_HEXAGON|Training Dummy|0|3| <img align="center" src="https://i.imgur.com/62GUUAC.png">|One Fourth Chance Instakill|||CombatArenaX|Trader, Choice|
 
-|GUID|Mod Prefix|Name|Power|Health|Cost|Specials|Traits|Tribes|
+#### 6 New Rare Cards:
+|GUID|Mod Prefix|Name|Power|Health|Cost|Sigils|Tribes|Meta Categories|
 |:-:|:-|:-|:-|:-|:-|:-|:-|:-|
-|creator.TribalPelts|creator.TribalPelts|Coyote Pelt|0|2|Free|SpawnLice|Pelt|Canine|
-|creator.TribalPelts|creator.TribalPelts|Crocodile Hide|0|2|Free|SpawnLice|Pelt|Reptile|
-|creator.TribalPelts|creator.TribalPelts|Deer Pelt|0|2|Free|SpawnLice|Pelt|Hooved|
-|creator.TribalPelts|creator.TribalPelts|Moth Molt|0|2|Free|SpawnLice|Pelt|Insect|
-|creator.TribalPelts|creator.TribalPelts|Raven Epidermis|0|2|Free|SpawnLice|Pelt|Bird|
+|creator.TheHexExpansionPart3|THE_ALMIGHTY_HEXAGON|Death|1|3| <img align="center" src="https://i.imgur.com/H6vESv7.png">|Annihilation, Rotting, Vampiric, Blood Lust|SuperWeaselKid|Rare|
+|creator.TheHexExpansionPart3|THE_ALMIGHTY_HEXAGON|Irving|2|2| <img align="center" src="https://i.imgur.com/62GUUAC.png">|Bully, Bloodrunner, Trophy Hunter|CombatArenaX|Rare|
+|creator.TheHexExpansionPart3|THE_ALMIGHTY_HEXAGON|Mi Singh|2|3| <img align="center" src="https://i.imgur.com/62GUUAC.png"> <img align="center" src="https://i.imgur.com/XmTnHld.png">|Commander, Rotting, Herald|CombatArenaX|Rare|
+|creator.TheHexExpansionPart3|THE_ALMIGHTY_HEXAGON|Sado|0|2| <img align="center" src="https://i.imgur.com/Ckvc6Ww.png">|Frozen Away|CombatArenaX, ViciousGalaxy, TheWalk, WasteWorld|Rare|
+|creator.TheHexExpansionPart3|THE_ALMIGHTY_HEXAGON|Shinobi|1|3| <img align="center" src="https://i.imgur.com/H6vESv7.png">|Morph Mover, Touch of Death|CombatArenaX|Rare|
+|creator.TheHexExpansionPart3|THE_ALMIGHTY_HEXAGON|Theodore|2|3| <img align="center" src="https://i.imgur.com/62GUUAC.png">|Wavering Strike, Return Strike|CombatArenaX|Rare|
 
-# Mod Reccomendations:
+## Installation:
 
-Gareths Mod: https://inscryption.thunderstore.io/package/Gareth48/GarethMod/
+### Installing with a Mod Manager;
+This is the recommended way to install BepInEx to the game.
 
-Augmented to Base: https://inscryption.thunderstore.io/package/creator/inscryption_augmented_to_base/
+1. Download and install [Thunderstore Mod Manager](https://www.overwolf.com/app/Thunderstore-Thunderstore_Mod_Manager) or [r2modman](https://Timberborn.thunderstore.io/package/ebkr/r2modman/).
+2. Click the **Install with Mod Manager** button on the top of [BepInEx's](https://thunderstore.io/package/download/BepInEx/BepInExPack_Inscryption/5.4.1902/) page.
+3. Run the game via the mod manager.
 
-Nevernameds Bestiary: https://inscryption.thunderstore.io/package/Nevernamed/Nevernameds_Bestiary/
+### Installing Manually;
+1. Install [BepInEx](https://thunderstore.io/package/download/BepInEx/BepInExPack_Inscryption/5.4.1902/) by pressing 'Manual Download' and extract the contents into a folder. **Do not extract into the game folder!**
+2. Move the contents of the 'BepInExPack_Inscryption' folder into the game folder (where the game executable is).
+3. Run the game. If everything was done correctly, you will see the BepInEx console appear on your desktop. Close the game after it finishes loading.
+4. Install [MonoModLoader](https://inscryption.thunderstore.io/package/BepInEx/MonoMod_Loader_Inscryption/) and extract the contents into a folder.
+5. Move the contents of the 'patchers' folder into 'BepInEx/patchers' (If any of the mentioned BepInEx folders don't exist, just create them).
+6. Install [Inscryption API](https://inscryption.thunderstore.io/package/API_dev/API/) and extract the contents into a folder.
+7. Move the contents of the 'plugins' folder into 'BepInEx/plugins' and the contents of the 'monomod' folder into the 'BepInEx/monomod' folder.
+8. Run the game again. If everything runs correctly, a message will appear in the console telling you that the API was loaded.
 
-Legends from the Darkness:
-https://inscryption.thunderstore.io/package/Inscryption_LFTD/Legends_From_The_Darkness/
+### Installing on the Steam Deck;
+1. Download [r2modman](https://Timberborn.thunderstore.io/package/ebkr/r2modman/) on the Steam Deck’s Desktop Mode and open it from its download using its `AppImage` file.
+2. Download the mods you plan on using and their dependencies..
+3. Go to the setting of the profile you are using for the mods and click `Browse Profile Folder`.
+4. Copy the BepInEx folder, then go to Steam and open Inscryption's Properties menu
+5. Go to `Installed Files` click `Browse` to open the folder containing Inscryption's local files; paste the BepInEx folder there.
+6. Enter Gaming Mode and check 'Force the use of a specific Steam Play compatibility tool' in the Properties menu under `Compatibility`.
+7. Go to the launch parameters and enter `WINEDLLOVERRIDES=“winhttp.dll=n,b” %command%`.
+8. Open Inscryption. If everything was done correctly, you should see a console appear on your screen.
 
-Bitty's Regions: https://inscryption.thunderstore.io/package/bitty45/BittysRegions/
+### Mac & Linux;
+1. Follow the steps here first: <https://docs.bepinex.dev/articles/user_guide/installation/index.html>
+2. Next do steps 4-8 of the Manual Installation
+3. Your game should be setup for inscryption modding now
 
-Zergmod: https://inscryption.thunderstore.io/package/JamesGames/ZergMod/
+## Where To Find Me:
 
-# Credits:
+My Discord Server: https://discord.gg/XDvfu8cZny
 
-professoreggnog: Art for Raven Epidermis, Coyote Pelt, Moth Molt, Deer Pelt, Crocodile Hide, Mod Logo.
+My X Profile: https://twitter.com/thincreator3483
 
-# Images:
+My Reddit Profile: https://www.reddit.com/user/Thincreator3483
 
-![image](https://github.com/SaxbyMod/Stoats-Stuff/assets/102002463/f540ad1a-7c0b-4c74-9a1e-ec79ade790f2) - The Store
+## Credits:
 
-![image](https://github.com/SaxbyMod/Stoats-Stuff/assets/102002463/5ac6936e-0348-4f46-9255-691a40794ab4) - All Pelts in Deck
-
-![image](https://github.com/SaxbyMod/Stoats-Stuff/assets/102002463/21d29418-9145-4393-bf1e-1708553d4d16) - Raven Epidermis Trading
-
-![image](https://github.com/SaxbyMod/Stoats-Stuff/assets/102002463/8baee812-d204-46eb-9add-3edf417d3bbf) - Coyote Pelt Trading
-
-![image](https://github.com/SaxbyMod/Stoats-Stuff/assets/102002463/28138dd7-1490-4ed3-83d0-ee1775dac686) - Deer Pelt Trading
-
-![image](https://github.com/SaxbyMod/Stoats-Stuff/assets/102002463/76e18646-f3ed-461b-a6e2-1e2d52f31491) - Crocodile Hide Trading
-
-![image](https://github.com/SaxbyMod/Stoats-Stuff/assets/102002463/3b56a8ea-3f6a-45ab-8afe-f6d1e738cd5b) - Moth Molt Trading
-
-![image](https://cdn.discordapp.com/attachments/913995270151364658/1125917243188977796/image.png) - W.I.P Mod Logo
-
-![image](https://cdn.discordapp.com/attachments/913995270151364658/1125937505540251719/image.png) - W.I.P Mod Logo
-
-![image](https://cdn.discordapp.com/attachments/913422578234847282/1125958708380323951/image.png) - W.I.P Mod Logo
-
-![image](https://cdn.discordapp.com/attachments/913422578234847282/1126011780032905257/image.png) - W.I.P Trader
-
-![image](https://cdn.discordapp.com/attachments/913422578234847282/1126031382360117328/TribePelts.png) - Final Logo
-
-![image](https://cdn.discordapp.com/attachments/913995270151364658/1125881272854655016/image.png) - Crocodile Hide
-
-![image](https://cdn.discordapp.com/attachments/913995270151364658/1125872940580343878/image.png) - Moth Molt
-
-![image](https://cdn.discordapp.com/attachments/913995270151364658/1125853325674430554/image.png) - Deer Pelt
-
-![image](https://cdn.discordapp.com/attachments/913995270151364658/1124158175470440548/image.png) - Coyote Pelt
-
-![image](https://cdn.discordapp.com/attachments/913995270151364658/1124146787742134376/image.png) - Raven Epidermis
-
-![image](https://cdn.discordapp.com/attachments/913995270151364658/1125865620395802695/image.png) - W.I.P Of Moth Molt
-
-![image](https://cdn.discordapp.com/attachments/913995270151364658/1125858623743066112/image.png) - Old version of the Insect tribes pelt
-
-![image](https://cdn.discordapp.com/attachments/913995270151364658/1125874050070216825/image.png) - The True Crocodile we always wanted.
-
-![image](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d921da5e-1c75-498b-8010-a26391aa0b56/ddbwt6a-9dea5d53-c3d5-4eb1-8fe5-b741e0da7f76.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Q5MjFkYTVlLTFjNzUtNDk4Yi04MDEwLWEyNjM5MWFhMGI1NlwvZGRid3Q2YS05ZGVhNWQ1My1jM2Q1LTRlYjEtOGZlNS1iNzQxZTBkYTdmNzYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.bXkR46Tt04H9oGWLrdDmDNZniNmxkgkQ6zYe_hhZl5Y) - Keks Moment
+* Code: Creator
+* Art(Base): The Hex (Game)
+* Art(Emmisions): Creator
+* Art(Cardback): Creator
+* Art(Pack Icon): Bitty45 & Creator
+* Art(Tribes): Creator with some help from Professor Eggnog
